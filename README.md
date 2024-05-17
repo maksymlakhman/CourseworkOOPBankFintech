@@ -58,9 +58,9 @@
     </td>
     <td align="center" width="96">
       <a href="">
-        <img src="https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png" width="48" height="48" alt="Firebase" />
+        <img src="https://developer.apple.com/assets/elements/icons/swiftdata/swiftdata-96x96_2x.png" width="48" height="48" alt="SwiftData" />
       </a>
-      <br>Firebase
+      <br>SwiftData
     </td>
   </tr>
 </table>
