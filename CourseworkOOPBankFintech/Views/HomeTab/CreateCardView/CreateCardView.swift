@@ -34,7 +34,14 @@ struct CreateCardView: View {
                                     .scaledToFit()
                                 Text(LogoCard.visa.description)
                             }
-                            .tag(LogoCard.visa)
+                            .tag(LogoCard.visa)                           
+                            HStack {
+                                Image(.mono)
+                                    .resizable()
+                                    .scaledToFit()
+                                Text(LogoCard.mono.description)
+                            }
+                            .tag(LogoCard.mono)
                         }
                         .pickerStyle(WheelPickerStyle())
                         .frame(height: 120)
