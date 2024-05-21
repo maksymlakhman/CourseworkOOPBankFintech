@@ -11,11 +11,13 @@ import SwiftData
 enum LogoCard : String, Codable {
     case mastercard = "mastercard"
     case visa = "visa"
+    case mono = "mono"
     
     var description : String {
         switch self{
         case .mastercard : "Mastercard"
         case .visa : "Visa"
+        case .mono : "Monobank"
         }
     }
 }
